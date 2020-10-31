@@ -5,17 +5,17 @@
 
 @font-face {
     font-family: OpenSansRegular;
-    src: url(./fonts/Open_Sans/OpenSans-Regular.ttf);
+    src: url(./fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
     font-family: OpenSansSemiBold;
-    src: url(./fonts/Open_Sans/OpenSans-SemiBold.ttf);
+    src: url(./fonts/OpenSans-SemiBold.ttf);
 }
 
 @font-face {
     font-family: OpenSansBold;
-    src: url(./fonts/Open_Sans/OpenSans-Bold.ttf);
+    src: url(./fonts/OpenSans-Bold.ttf);
 }
 
 * {
@@ -27,7 +27,7 @@
 body {
     height: 100vh;
     width: 100%;
-    background: url(./assets/bg/bg1.jpg);
+    background: url(./assets/bg/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,8 +76,12 @@ body {
             position: fixed;
             bottom: 0;
             text-align: center;
-            font-size: 20px;
+            font-size: 18px;
             padding: 10px 0;
+
+            span {
+                padding: 0 3px;
+            }
 
             .fa-heart {
                 color: #ff0000;
