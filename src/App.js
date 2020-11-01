@@ -29,12 +29,12 @@ function App() {
                         </div>
                     </div>
                 </div>
-            ) : (
-                <div className="body_main__container">
-                    <Body />
-                    <Footer />
-                </div>
-            )}
+            ) : null}
+
+            <div className="body_main__container">
+                <Body />
+                <Footer />
+            </div>
         </div>
     );
 }
