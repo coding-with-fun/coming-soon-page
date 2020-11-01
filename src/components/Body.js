@@ -7,6 +7,7 @@ const Body = () => {
             <div className="img__container">
                 <img src={Logo} alt="Logo" />
             </div>
+            <div className="logo">Arc Coder</div>
             <div className="details">Coming Soon</div>
         </div>
     );
