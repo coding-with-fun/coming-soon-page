@@ -55,6 +55,14 @@ body {
             }
         }
 
+        .invisible {
+            display: none;
+        }
+
+        .visible {
+            display: inherit;
+        }
+
         .body_main__container {
             height: 100vh;
 
@@ -99,7 +107,6 @@ body {
                 text-align: center;
                 font-size: 17px;
                 padding: 10px 0;
-                z-index: -1;
 
                 hr {
                     margin: 5px auto;

@@ -31,7 +31,13 @@ function App() {
                 </div>
             ) : null}
 
-            <div className="body_main__container">
+            <div
+                className={
+                    showLoading
+                        ? `body_main__container invisible`
+                        : `body_main__container visible`
+                }
+            >
                 <Body />
                 <Footer />
             </div>
